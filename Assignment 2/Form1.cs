@@ -32,87 +32,142 @@ namespace Assignment_2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double stwo1 = Convert.ToDouble(textBox1.Text);
-            double stwo2 = Convert.ToDouble(textBox2.Text);
+            try
+            {
+                double stwo1 = Convert.ToDouble(textBox1.Text);
+                double stwo2 = Convert.ToDouble(textBox2.Text);
 
-            double a = stwo1 + stwo2;
-            label29.Text = a + "";
-
+                double a = stwo1 + stwo2;
+                label29.Text = a + "";
+            }
+            catch
+            {
+                MessageBox.Show("Error");
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            double sthree1 = Convert.ToDouble(textBox3.Text);
-            double sthree2 = Convert.ToDouble(textBox4.Text);
-            double sthree3 = Convert.ToDouble(textBox5.Text);
+            try
+            {
+                double sthree1 = Convert.ToDouble(textBox3.Text);
+                double sthree2 = Convert.ToDouble(textBox4.Text);
+                double sthree3 = Convert.ToDouble(textBox5.Text);
 
-            double a = sthree1 + sthree2 + sthree3;
-            label30.Text = a + "";
+                double a = sthree1 + sthree2 + sthree3;
+                label30.Text = a + "";
+            }
+            catch
+            {
+                MessageBox.Show("Error");
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            double sfour1 = Convert.ToDouble(textBox6.Text);
-            double sfour2 = Convert.ToDouble(textBox7.Text);
-            double sfour3 = Convert.ToDouble(textBox8.Text);
-            double sfour4 = Convert.ToDouble(textBox9.Text);
+            try
+            {
+                double sfour1 = Convert.ToDouble(textBox6.Text);
+                double sfour2 = Convert.ToDouble(textBox7.Text);
+                double sfour3 = Convert.ToDouble(textBox8.Text);
+                double sfour4 = Convert.ToDouble(textBox9.Text);
 
-            double a = sfour1 + sfour2 + sfour3 + sfour4;
-            label31.Text = a + "";
+                double a = sfour1 + sfour2 + sfour3 + sfour4;
+                label31.Text = a + "";
+            }
+            catch
+            {
+                MessageBox.Show("Error");
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            double sfive1 = Convert.ToDouble(textBox10.Text);
-            double sfive2 = Convert.ToDouble(textBox11.Text);
-            double sfive3 = Convert.ToDouble(textBox12.Text);
-            double sfive4 = Convert.ToDouble(textBox13.Text);
-            double sfive5 = Convert.ToDouble(textBox14.Text);
+            try
+            {
+                double sfive1 = Convert.ToDouble(textBox10.Text);
+                double sfive2 = Convert.ToDouble(textBox11.Text);
+                double sfive3 = Convert.ToDouble(textBox12.Text);
+                double sfive4 = Convert.ToDouble(textBox13.Text);
+                double sfive5 = Convert.ToDouble(textBox14.Text);
 
-            double a = sfive1 + sfive2 + sfive3 + sfive4 + sfive5;
-            label32.Text = a + "";
+                double a = sfive1 + sfive2 + sfive3 + sfive4 + sfive5;
+                label32.Text = a + "";
+            }
+            catch
+            {
+                MessageBox.Show("Error");
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            double ptwo1 = Convert.ToDouble(textBox15.Text);
-            double ptwo2 = Convert.ToDouble(textBox16.Text);
+            try
+            {
+                double ptwo1 = Convert.ToDouble(textBox15.Text);
+                double ptwo2 = Convert.ToDouble(textBox16.Text);
 
-            double a = (1.0 / ptwo1) + (1.0 / ptwo2);
-            label33.Text = a + "";
+                double a = (1.0 / ptwo1) + (1.0 / ptwo2);
+                label33.Text = a + "";
+            }
+            catch
+            {
+                MessageBox.Show("Error");
+            }
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            double pthree1 = Convert.ToDouble(textBox17.Text);
-            double pthree2 = Convert.ToDouble(textBox18.Text);
-            double pthree3 = Convert.ToDouble(textBox19.Text);
+            try
+            {
+                double pthree1 = Convert.ToDouble(textBox17.Text);
+                double pthree2 = Convert.ToDouble(textBox18.Text);
+                double pthree3 = Convert.ToDouble(textBox19.Text);
 
-            double a = (1.0 / pthree1) + (1.0 / pthree2) + (1.0 / pthree3);
-            label34.Text = a + "";
+                double a = (1.0 / pthree1) + (1.0 / pthree2) + (1.0 / pthree3);
+                label34.Text = a + "";
+            }
+            catch
+            {
+                MessageBox.Show("Error");
+            }
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            double pfour1 = Convert.ToDouble(textBox20.Text);
-            double pfour2 = Convert.ToDouble(textBox21.Text);
-            double pfour3 = Convert.ToDouble(textBox22.Text);
-            double pfour4 = Convert.ToDouble(textBox23.Text);
+            try
+            {
+                double pfour1 = Convert.ToDouble(textBox20.Text);
+                double pfour2 = Convert.ToDouble(textBox21.Text);
+                double pfour3 = Convert.ToDouble(textBox22.Text);
+                double pfour4 = Convert.ToDouble(textBox23.Text);
 
-            double a = (1.0 / pfour1) + (1.0 / pfour2) + (1.0 / pfour3) + (1.0 / pfour4);
-            label35.Text = a + "";
+                double a = (1.0 / pfour1) + (1.0 / pfour2) + (1.0 / pfour3) + (1.0 / pfour4);
+                label35.Text = a + "";
+            }
+            catch
+            {
+                MessageBox.Show("Error");
+            }
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            double pfive1 = Convert.ToDouble(textBox24.Text);
-            double pfive2 = Convert.ToDouble(textBox25.Text);
-            double pfive3 = Convert.ToDouble(textBox26.Text);
-            double pfive4 = Convert.ToDouble(textBox27.Text);
-            double pfive5 = Convert.ToDouble(textBox28.Text);
+            try
+            {
+                double pfive1 = Convert.ToDouble(textBox24.Text);
+                double pfive2 = Convert.ToDouble(textBox25.Text);
+                double pfive3 = Convert.ToDouble(textBox26.Text);
+                double pfive4 = Convert.ToDouble(textBox27.Text);
+                double pfive5 = Convert.ToDouble(textBox28.Text);
 
-            double a = (1.0 / pfive1) + (1.0 / pfive2) + (1.0 / pfive3) + (1.0 / pfive4) + (1.0 / pfive5);
-            label36.Text = a + "";
+                double a = (1.0 / pfive1) + (1.0 / pfive2) + (1.0 / pfive3) + (1.0 / pfive4) + (1.0 / pfive5);
+                label36.Text = a + "";
+            }
+            catch
+            {
+                MessageBox.Show("Error");
+            }
         }
     }
 }
