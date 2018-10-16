@@ -38,7 +38,7 @@ namespace Assignment_2
                 double stwo2 = Convert.ToDouble(textBox2.Text);
 
                 double a = stwo1 + stwo2;
-                label29.Text = a + "Ω";
+                label29.Text = a.ToString("0.00") + "Ω";
             }
             catch
             {
@@ -55,7 +55,7 @@ namespace Assignment_2
                 double sthree3 = Convert.ToDouble(textBox5.Text);
 
                 double a = sthree1 + sthree2 + sthree3;
-                label30.Text = a + "Ω";
+                label30.Text = a.ToString("0.00") + "Ω";
             }
             catch
             {
@@ -73,7 +73,7 @@ namespace Assignment_2
                 double sfour4 = Convert.ToDouble(textBox9.Text);
 
                 double a = sfour1 + sfour2 + sfour3 + sfour4;
-                label31.Text = a + "Ω";
+                label31.Text = a.ToString("0.00") + "Ω";
             }
             catch
             {
@@ -92,7 +92,7 @@ namespace Assignment_2
                 double sfive5 = Convert.ToDouble(textBox14.Text);
 
                 double a = sfive1 + sfive2 + sfive3 + sfive4 + sfive5;
-                label32.Text = a + "Ω";
+                label32.Text = a.ToString("0.00") + "Ω";
             }
             catch
             {
@@ -108,7 +108,7 @@ namespace Assignment_2
                 double ptwo2 = Convert.ToDouble(textBox16.Text);
 
                 double a = (1.0 / ptwo1) + (1.0 / ptwo2);
-                label33.Text = a + "Ω";
+                label33.Text = a.ToString("0.00") + "Ω";
             }
             catch
             {
@@ -125,7 +125,7 @@ namespace Assignment_2
                 double pthree3 = Convert.ToDouble(textBox19.Text);
 
                 double a = (1.0 / pthree1) + (1.0 / pthree2) + (1.0 / pthree3);
-                label34.Text = a + "Ω";
+                label34.Text = a.ToString("0.00") + "Ω";
             }
             catch
             {
@@ -143,7 +143,7 @@ namespace Assignment_2
                 double pfour4 = Convert.ToDouble(textBox23.Text);
 
                 double a = (1.0 / pfour1) + (1.0 / pfour2) + (1.0 / pfour3) + (1.0 / pfour4);
-                label35.Text = a + "Ω";
+                label35.Text = a.ToString("0.00") + "Ω";
             }
             catch
             {
@@ -162,7 +162,7 @@ namespace Assignment_2
                 double pfive5 = Convert.ToDouble(textBox28.Text);
 
                 double a = (1.0 / pfive1) + (1.0 / pfive2) + (1.0 / pfive3) + (1.0 / pfive4) + (1.0 / pfive5);
-                label36.Text = a + "Ω";
+                label36.Text = a.ToString("0.00") + "Ω";
             }
             catch
             {
