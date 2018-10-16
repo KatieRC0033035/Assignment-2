@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace Assignment_2
 {
     public partial class Form1 : Form
-    {
+    {// hides the text on the labels where the answer goes
         public Form1()
         {
             InitializeComponent();
@@ -29,7 +29,7 @@ namespace Assignment_2
         {
 
         }
-
+        //works out the total of 2 resistors in a series circuit
         private void button1_Click(object sender, EventArgs e)
         {
             try
@@ -45,7 +45,7 @@ namespace Assignment_2
                 MessageBox.Show("Error");
             }
         }
-
+        //works out the total of 3 resistors in a series circuit
         private void button2_Click(object sender, EventArgs e)
         {
             try
@@ -62,7 +62,7 @@ namespace Assignment_2
                 MessageBox.Show("Error");
             }
         }
-
+        //works out the total of 4 resistors in a series circuit
         private void button3_Click(object sender, EventArgs e)
         {
             try
@@ -80,7 +80,7 @@ namespace Assignment_2
                 MessageBox.Show("Error");
             }
         }
-
+        //works out the total of 5 resistors in a series circuit
         private void button4_Click(object sender, EventArgs e)
         {
             try
@@ -99,7 +99,7 @@ namespace Assignment_2
                 MessageBox.Show("Error");
             }
         }
-
+        //works out the total of 2 resistors in a parallel circuit
         private void button5_Click(object sender, EventArgs e)
         {
             try
@@ -115,7 +115,7 @@ namespace Assignment_2
                 MessageBox.Show("Error");
             }
         }
-
+        //works out the total of 3 resistors in a parallel circuit
         private void button6_Click(object sender, EventArgs e)
         {
             try
@@ -132,7 +132,7 @@ namespace Assignment_2
                 MessageBox.Show("Error");
             }
         }
-
+        //works out the total of 4 resistors in a parallel circuit
         private void button7_Click(object sender, EventArgs e)
         {
             try
@@ -150,7 +150,7 @@ namespace Assignment_2
                 MessageBox.Show("Error");
             }
         }
-
+        //works out the total of 5 resistors in a parallel circuit
         private void button8_Click(object sender, EventArgs e)
         {
             try
